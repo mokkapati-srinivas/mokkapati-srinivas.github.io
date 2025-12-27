@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm Srinivas!"
+title: "[Website WIP] 👋 Hello there, I'm Srinivas!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
