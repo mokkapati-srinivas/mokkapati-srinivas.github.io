@@ -1,0 +1,205 @@
+/* Custom styles for portfolio */
+
+/* Force avatar to be perfectly circular */
+.author__avatar img {
+  width: 175px !important;
+  height: 175px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  display: block !important;
+}
+
+/* Fix Follow button styling */
+.btn--inverse {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+}
+
+.btn--inverse:hover {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color: #333 !important;
+}
+
+/* Simple hover dropdown for social links */
+.author__urls-wrapper:hover .author__urls {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Simple education logo styling to match reference site */
+.align-left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+}
+
+/* Thicker horizontal rule for education sections */
+.archive hr {
+  border: none;
+  height: 3px;
+  background-color: #ddd;
+  margin: 2em 0;
+  clear: both;
+}
+
+/* Fix alignment issues with floating logos in projects */
+.archive h2 {
+  clear: none;
+}
+
+.archive p {
+  clear: none;
+}
+
+/* Project container styling */
+.project-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.project-image {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-content h2 {
+  margin: 0 0 0.3em 0;
+  font-size: 1.4em;
+}
+
+/* Tech stack tags for projects */
+.tech-stack-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.3em;
+}
+
+.tech-tag {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 0.2em 0.6em;
+  font-size: 0.85em;
+  color: #555;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.tech-tag:hover {
+  background-color: #e0e0e0;
+  border-color: #ccc;
+}
+
+/* Education container styling */
+.education-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.education-image {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-content h2 {
+  margin: 0 0 0.3em 0;
+  font-size: 1.4em;
+}
+
+.education-period {
+  margin: 0 0 0.5em 0;
+  color: #666;
+  font-style: italic;
+}
+
+.degree-info {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.degree-info strong {
+  color: #333;
+  font-size: 1.05em;
+}
+
+.gpa-badge {
+  color: #777;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+/* Coursework styling */
+.coursework-container {
+  margin: 1em 0;
+}
+
+.coursework-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.5em;
+}
+
+.course-tag {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 0.3em 0.8em;
+  font-size: 0.9em;
+  color: #555;
+  white-space: nowrap;
+}
+
+.course-tag:hover {
+  background-color: #e0e0e0;
+  border-color: #ccc;
+}
+/* Text justification for main content areas */
+.archive p,
+.page__content p,
+.author__bio p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Justify list items as well */
+.page__content li,
+.archive li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Ensure project descriptions are justified */
+.project-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Keep certain elements left-aligned */
+.education-period,
+.coursework-container strong,
+.tech-stack-tags,
+.coursework-tags {
+  text-align: left;
+}
